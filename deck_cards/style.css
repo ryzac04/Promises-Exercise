@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: green;
+}
+
+.button {
+    padding: 15px;
+    background-color: rgb(139, 67, 0);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    display: none;
+    margin: 0 auto;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(196, 115, 40); 
+}
+
+.table {
+    margin-top: 80px;
+}
+
+.table > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
